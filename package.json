@@ -1,11 +1,10 @@
 {
-  "name": "TranslationApi",
+  "name": "translationapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +16,14 @@
     "nodemon": "^2.0.12",
     "sequelize": "^6.6.5",
     "translate-google": "^1.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guruias123/codeyoung.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guruias123/codeyoung/issues"
+  },
+  "homepage": "https://github.com/guruias123/codeyoung#readme",
+  "description": ""
 }

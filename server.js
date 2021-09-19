@@ -7,7 +7,7 @@ const sequelize = require('./connection');
 const app = express();
 
 const host = 'localhost';
-const port = 5000;
+const port = 4000;
 
 app.use(cors());
 app.options('*',cors());
